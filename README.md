@@ -64,7 +64,7 @@ The project is organized into five main stages.
 
 ## Architecture
 
-<img width="600" height="675" alt="image" src="https://github.com/user-attachments/assets/05d9896b-cb1b-4363-b0b4-d3d307dc8313" />
+<img width="520" height="675" alt="image" src="https://github.com/user-attachments/assets/05d9896b-cb1b-4363-b0b4-d3d307dc8313" />
 
 
 The separation keeps the application responsibilities clear:
