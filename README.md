@@ -1,5 +1,7 @@
 # ML-Powered NYC Airbnb Room Type Predictor
 
+Live Project - https://nyc-room-airbnb-classification-1.onrender.com
+
 ## Overview
 
 This project is a machine learning application that predicts the **room type** of an Airbnb listing in New York City.
@@ -62,29 +64,8 @@ The project is organized into five main stages.
 
 ## Architecture
 
-```text
-                  ┌─────────────────────┐
-                  │   Web Interface     │
-                  │ HTML / CSS / JS     │
-                  └──────────┬──────────┘
-                             │
-                             ▼
-                  ┌─────────────────────┐
-                  │      FastAPI        │
-                  │   API / Validation  │
-                  └──────────┬──────────┘
-                             │
-                             ▼
-                  ┌─────────────────────┐
-                  │   Predictor Service │
-                  │  Model Inference    │
-                  └──────────┬──────────┘
-                             │
-                             ▼
-                  ┌─────────────────────┐
-                  │  Model_Pipeline.pkl │
-                  └─────────────────────┘
-```
+<img width="600" height="675" alt="image" src="https://github.com/user-attachments/assets/05d9896b-cb1b-4363-b0b4-d3d307dc8313" />
+
 
 The separation keeps the application responsibilities clear:
 
